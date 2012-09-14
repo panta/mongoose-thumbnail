@@ -14,7 +14,7 @@ As it uses [mongoose-file][] internally, the added field has all the `mongoose-f
 Please refer to [mongoose-file][] documentation to understand basic usage.
 
 In addition to the sub-fields carried by [mongoose-file][], this plugin creates an additional sub-field, named by default `thumb`.
-Depending on the `inline` plugin option, the thumbnail field may contain additional sub-fields containing the the thumbnail file properties, or could be a string containing the [Data URI](http://en.wikipedia.org/wiki/Data_URI_scheme) encoded thumbnail.
+Depending on the `inline` plugin option, the thumbnail field may contain additional sub-fields containing the thumbnail file properties, or could be a string containing the [Data URI](http://en.wikipedia.org/wiki/Data_URI_scheme) encoded thumbnail.
 
 In addition those pertaining to [mongoose-file][], the following options are available:
 
