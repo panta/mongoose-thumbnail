@@ -115,7 +115,7 @@ Otherwise, using thumbnail inlining:
 
 PictureSchema = new mongoose.Schema
   title: String
-PictureSchema.plugin thumbnailPlugin
+PictureSchema.plugin thumbnailPlugin,
   name: "photo"
   inline: true
 Picture = db.model("Picture", PictureSchema)
